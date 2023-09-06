@@ -11,22 +11,59 @@
     <link href="assets/build/css/mainc607.css?id=6506313fe0c06a315800" rel="stylesheet" />
     <link href="assets/build/css/style.css" rel="stylesheet">
     <link href="assets/images/favicon.png" rel="shortcut icon" />
-    <link crossorigin="anonymous" href="../../use.fontawesome.com/releases/v5.8.2/css/all.css"
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet" />
-    <script src="assets/build/js/maind617.js?id=49c114d670ab6cfc5376"></script>
-    <script src="../../code.jquery.com/ui/1.12.0/jquery-ui.min.js"
-        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
     <header class="l-header">
-        <section class="s-header hidden md:block" style="background-image: url(assets/images/4.jpg)">
+        <section class="s-header hidden md:block" style="background-image: url(assets/images/banner-p.png)">
             <div class="g-container container-center">
                 <div class="g-grid">
-                    <div class="g-cell md:column-12">
+
+                    <div class="col-md-6">
+                        <div class="c-banner">
+                            <div>
+                                <div class="c-header__logo" style="padding-bottom: 5rem;"><img alt="Boeing"
+                                        class="c-header__logo-img" src="assets/images/logo.png" /></div>
+                                <p class="build1">BUILD</p><br>
+                                <p class="build2">BOEING UNIVERSITY INNOVATION LEADERSHIP PROGRAM</p>
+                            </div>
+                            <div class="side-by-side-links">
+                                <a class="c-banner__link" href="#timeline">Learn More<i
+                                        class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                                <a class="c-banner__link c-banner__link--orange" href="#applicationForm">Apply Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="c-header__partner">
+                            <p class="c-header__meta">In Partnership With</p>
+                            <a href="http://www.incubation.iitm.ac.in/" target="_blank"><img
+                                    alt="Logo IITM Incubation Cell" class="c-header__partner-img"
+                                    src="assets/images/logo-iitm.png" /></a>
+                        </div>
+
+                        <div class="c-banner__heading iconsb"><img alt="Build" class="c-banner__image"
+                                src="assets/images/icons.png" /></div>
+
+                        <div class="shapeidea">
+                            <p class="build3">SHAPE YOUR IDEAS HERE</p><br>
+                            <p class="build4">www.boeing.co.in/build</p>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="g-cell md:column-12">
                         <div class="c-header">
                             <div class="c-header__logo"><img alt="Boeing" class="c-header__logo-img"
                                     src="assets/images/logo.png" /></div>
@@ -42,12 +79,12 @@
 
 
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="g-cell md:column-10 lg:column-8 xl:column-6" style="padding-top: 2rem;">
+                    <!-- <div class="g-cell md:column-10 lg:column-8 xl:column-6" style="padding-top: 2rem;">
                         <div class="c-banner">
                             <div>
-                                <!-- <img alt="Build" class="c-banner__image" src="assets/images/build.png" /> -->
+                                 <img alt="Build" class="c-banner__image" src="assets/images/build.png" /> 
                                 <p class="build1">BUILD</p><br>
                                 <p class="build2">BOEING UNIVERSITY INNOVATION LEADERSHIP PROGRAM</p>
                             </div>
@@ -55,18 +92,7 @@
                                     class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a> <a
                                 class="c-banner__link c-banner__link--orange" href="#applicationForm">Apply Now</a>
                         </div>
-                    </div>
-
-                    <!-- <div class="g-cell md:column-10 lg:column-8 xl:column-6">
-                        <div class="c-banner banner1">
-<div class="c-banner__heading"><img alt="Build" class="c-banner__image"
-                                src="assets/images/icons.png" /></div>
-                        </div>
                     </div> -->
-
-
-
-
                 </div>
             </div>
         </section>
@@ -110,7 +136,7 @@
             <div class="g-container container-center">
                 <div class="g-grid items-center">
                     <div class="g-cell md:column-6">
-                        <div><img alt="Location" src="assets/images/Map.png" /></div>
+                        <div><img alt="Location" src="assets/images/map4.png" /></div>
                     </div>
 
                     <div class="g-cell md:column-6">
@@ -579,26 +605,26 @@
                                                 <div class="g-grid">
                                                     <div class="g-cell md:column-6">
                                                         <div class="c-form__field"><label class="c-form__label"
-                                                                for="memberFullName_1">Team Name<span
+                                                                for="memberteamName_1">Team Name<span
                                                                     class="text-red">*</span>:</label> <input
-                                                                class="c-form__input" id="memberFullName_1"
-                                                                name="memberFullName_1" required="" type="text" /></div>
+                                                                class="c-form__input" id="memberteamName_1"
+                                                                name="memberteamName_1" required="" type="text" /></div>
                                                     </div>
 
                                                     <div class="g-cell md:column-6">
                                                         <div class="c-form__field"><label class="c-form__label"
-                                                                for="memberDegree_1">Team Contact<span
+                                                                for="membercontact_1">Team Contact<span
                                                                     class="text-red">*</span>:</label> <input
-                                                                class="c-form__input" id="memberDegree_1"
-                                                                name="memberDegree_1" required="" type="text" /></div>
+                                                                class="c-form__input" id="membercontact_1"
+                                                                name="membercontact_1" required="" type="text" /></div>
                                                     </div>
 
                                                     <div class="g-cell md:column-6">
                                                         <div class="c-form__field"><label class="c-form__label"
-                                                                for="memberCollege_1">Team Members<span
+                                                                for="membersname_1">Team Members<span
                                                                     class="text-red">*</span>:</label> <input
-                                                                class="c-form__input" id="memberCollege_1"
-                                                                name="memberCollege_1" required="" type="text" /></div>
+                                                                class="c-form__input" id="membersname_1"
+                                                                name="membersname_1" required="" type="text" /></div>
                                                     </div>
 
 
@@ -791,7 +817,9 @@
                                                     </div>
                                                     <div class="g-cell md:column-12">
                                                         <div class="c-form__field"><label class="c-form__label"
-                                                                for="memberBiography_1">Why you think your business will be successful? <span class="text-red">*</span>:</label><textarea
+                                                                for="memberBiography_1">Why you think your business will
+                                                                be successful? <span
+                                                                    class="text-red">*</span>:</label><textarea
                                                                 class="c-form__textarea" id="memberBiography_1"
                                                                 maxlength="250" name="memberBiography_1"
                                                                 required=""></textarea> <span
@@ -813,7 +841,9 @@
                                         <div class="g-cell md:column-9">
                                             <div class="c-message js-form-message">error</div>
                                         </div>
-                                        <!--<div class="g-cell md:column-3"><button class="c-button c-button--primary w-full text-center js-submit" type="submit">Submit</button></div>-->
+                                        <div class="g-cell md:column-3"><button
+                                                class="c-button c-button--primary w-full text-center js-submit"
+                                                type="submit">Submit</button></div>
                                     </div>
                                 </div>
                             </div>
@@ -1022,7 +1052,8 @@
                     HorizonX India Innovation Challenge, the Accelerated Aircraft Maintenance Engineers Apprenticeship,
                     and the National Aeromodelling Competition with IIT, Boeing has made a significant
                     impact in creating a skilled frontline workforce and empowered entrepreneurs in India.</p>
-                <p class="para1">Read more about BUILD 2.0 in the news here: The Times of India, Techcircle, News18</p>
+                <p class="para1" style="margin-bottom: 3rem;">Read more about BUILD 2.0 in the news here: The Times of
+                    India, Techcircle, News18</p>
             </div>
 
         </section>
@@ -1043,6 +1074,25 @@
             </div>
         </section>
     </footer>
+
+    <!-- <script>
+        const scriptURL = ''
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script> -->
+    <script src="assets/build/js/maind617.js?id=49c114d670ab6cfc5376"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+
 </body>
 
 <!-- Mirrored from rtbi.in/BoeingBUILD/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Sep 2023 11:50:03 GMT -->
