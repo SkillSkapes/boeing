@@ -50,7 +50,17 @@
     padding: 20px 50px 0px 50px;
 }
 
+.c-header__partner {
+    width: 100px;
+    top: 2rem;
+    right: 3rem !important;
+    position: absolute;
+}
 
+.c-idea__content{
+    font-size: 20px !important;
+    width: 550px !important;
+}
 .iconsb {
     width: 300px;
     top: 10rem !important;
